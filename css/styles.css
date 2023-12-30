@@ -141,3 +141,8 @@ a {
   transform: none;
 }
 
+/* Perfil */
+
+#profile {
+  text-transform: capitalize;
+}
