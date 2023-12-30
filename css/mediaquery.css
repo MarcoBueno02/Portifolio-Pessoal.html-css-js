@@ -1,4 +1,4 @@
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
@@ -6,22 +6,31 @@
   .about-containers {
     flex-wrap: wrap;
   }
+  #contato,
+  #projetos {
+    height: fit-content;
+  }
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
   }
   #hamburger-nav {
     display: flex;
   }
-  #profile, .section-container {
+  #profile,
+  .section-container {
     display: block;
+    height: 83vh;
+    margin-bottom: 0;
+    margin-top: 6rem;
   }
   .arrow {
     display: none;
   }
-  section, .section-container {
+  section,
+  .section-container {
     height: fit-content;
   }
   section {
@@ -32,30 +41,43 @@
     height: 275px;
     margin: 0 auto 2rem;
   }
-
-  .about-containers{
+  .about-containers {
     margin-top: 0;
   }
 }
 
 @media screen and (max-width: 600px) {
-  #contato, footer {
+  #contato,
+  footer {
     height: 40vh;
   }
   #profile {
-    height: 75vh;
+    height: 83vh;
     margin-bottom: 0;
   }
-  .about-containers, .contact-info-upper-container, .btn-container {
+  article {
+    font-size: 1rem;
+  }
+  footer {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
     flex-wrap: wrap;
   }
   .contact-info-container {
     margin: 0;
   }
-  .contact-info-container p, .nav-links li a {
+  .contact-info-container p,
+  .nav-links li a {
     font-size: 1rem;
   }
-  .logo{
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
     font-size: 1.5rem;
   }
   .nav-links {
@@ -76,9 +98,5 @@
   }
   .text-container {
     text-align: justify;
-  }
-  footer {
-    height: fit-content;
-    margin-bottom: 2rem;
   }
 }

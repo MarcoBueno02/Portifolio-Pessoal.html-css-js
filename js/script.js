@@ -18,3 +18,20 @@ window.onscroll = function () {
 
     prevScrollpos = currentScrollPos;
 };
+
+let prevScrollPos = window.pageYOffset;
+let hamburgerNav = document.getElementById("hamburger-nav");
+
+window.onscroll = function () {
+    let currentScrollPos = window.pageYOffset;
+
+    if (prevScrollPos > currentScrollPos) {
+        // Rolar para cima
+        hamburgerNav.style.top = "0";
+    } else {
+        // Rolar para baixo
+        hamburgerNav.style.top = `-${hamburgerNav.clientHeight}px`;
+    }
+
+    prevScrollPos = currentScrollPos;
+};
