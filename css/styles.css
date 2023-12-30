@@ -212,7 +212,7 @@ section {
   height: 2rem;
 }
 
-/* Sobre */
+/* ABOUT SECTION */
 
 #sobre {
   position: relative;
@@ -229,13 +229,11 @@ section {
   flex-direction: column;
 }
 
-.about-containers, .about-details-container {
+.about-containers,
+.about-details-container {
   display: flex;
 }
 
-.about-pic {
-  border-radius: 2rem;
-}
 
 .arrow {
   position: absolute;
@@ -248,7 +246,7 @@ section {
   flex: 1;
   background: white;
   border-radius: 2rem;
-  border: rgb(53,  53, 53) 0.1rem solid;
+  border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
 }
@@ -257,12 +255,3 @@ section {
   gap: 4rem;
   height: 80%;
 }
-
-.section__pic-container {
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
-}
-
-
-
