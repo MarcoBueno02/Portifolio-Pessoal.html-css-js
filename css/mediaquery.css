@@ -1,8 +1,30 @@
+@media screen and (max-width: 1400px){
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+}
+
 @media screen and (max-width: 1200px){
   #desktop-nav {
     display: none;
   }
   #hamburger-nav {
     display: flex;
+  }
+  #profile, .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section, .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
   }
 }
