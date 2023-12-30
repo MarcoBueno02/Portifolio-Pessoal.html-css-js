@@ -34,6 +34,7 @@ a {
   align-items: center;
   z-index: 100;
   transition: top 0.5s ease;
+  background-color: white;
 }
 
 .nav-list {
@@ -145,6 +146,7 @@ a {
 /* SECTIONS */
 
 section {
+  text-transform: capitalize;
   padding-top: 4vh;
   height: 96vh;
   margin: 0 10rem;
