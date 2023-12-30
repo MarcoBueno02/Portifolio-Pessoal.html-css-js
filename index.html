@@ -9,7 +9,7 @@
 </head>
 <body>
   <header>
-    <nav>
+    <nav id="desktop-nav">
       <a class="logo">bueno.dev</a>
       <ul class="nav-list">
         <li><a href="#home">home</a></li>
@@ -17,6 +17,22 @@
         <li><a href="#projetos">projetos</a></li>
         <li><a href="#contato">contato</a></li>
       </ul>
+    </nav>
+    <nav id="hamburger-nav">
+      <a class="logo">bueno.dev</a>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#home" onclick="toggleMenu()">home</a></li>
+          <li><a href="#sobre" onclick="toggleMenu()">sobre</a></li>
+          <li><a href="#projetos" onclick="toggleMenu()">projetos</a></li>
+          <li><a href="#contato" onclick="toggleMenu()">contato</a></li>
+        </div>
+      </div>
     </nav>
   </header>
   <script src="./js/script.js"></script>

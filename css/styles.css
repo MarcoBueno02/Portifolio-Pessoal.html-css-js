@@ -23,7 +23,7 @@ a {
   font-weight: 700;
 }
 
-nav{
+#desktop-nav{
   position: fixed;
   top: 0;
   left: 0;
@@ -63,4 +63,24 @@ nav{
 
 .nav-list a:hover::before {
   width: 100%;
+}
+
+/* Hamburger Navbar */
+
+#hamburger-nav {
+  display: none;
+}
+
+.hamburger-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.hamburger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24px;
+  width: 30px;
+  cursor: pointer;
 }
