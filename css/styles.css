@@ -10,6 +10,57 @@
   scroll-behavior: smooth;
 }
 
+.nav-list li, #profile, section,#sobre, #projetos,#contato {
+  text-transform:  capitalize;
+}
+
+/* botões */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+}
+
+.btn-color-1,
+.btn-color-2 {
+  border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+  cursor: pointer;
+}
+
+.btn-color-1,
+.btn-color-2:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+}
+
+.btn-color-1:hover {
+  background: rgb(0, 0, 0);
+}
+
+.btn-color-2 {
+  background: none;
+}
+
+.btn-color-2:hover {
+  border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+.btn-container {
+  gap: 1rem;
+}
+
 /* Navbar */
 a {
   color: black;
@@ -43,7 +94,6 @@ a {
 }
 
 .nav-list li {
-  text-transform: capitalize;
   position: relative;
   font-size: 18px;
   color: black;
@@ -146,7 +196,6 @@ a {
 /* SEÇÕES */
 
 section {
-  text-transform: capitalize;
   padding-top: 4vh;
   height: 96vh;
   margin: 0 10rem;
@@ -165,7 +214,6 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 100vh;
-  text-transform: capitalize;
 }
 
 .section__pic-container {
@@ -254,4 +302,31 @@ section {
 .section-container {
   gap: 4rem;
   height: 80%;
+}
+
+/* projetos */
+
+#projetos {
+  position: relative;
+}
+
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+}
+
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+
+.project-title {
+  margin: 1rem;
+  color: black;
+}
+
+.project-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
 }
