@@ -27,4 +27,26 @@
   section {
     margin: 0 5%;
   }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+
+  .about-containers{
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #contato, footer {
+    height: 40vh;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  .about-containers, .contact-info-upper-container, .btn-container {
+    flex-wrap: wrap;
+  }
 }
