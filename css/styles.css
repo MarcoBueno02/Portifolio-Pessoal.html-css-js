@@ -76,14 +76,11 @@ a {
 
 #desktop-nav{
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
   padding: 20px 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 100;
   transition: top 0.5s ease;
   background-color: white;
 }
@@ -226,6 +223,8 @@ section {
 #profile {
   display: flex;
   justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   gap: 5rem;
   height: 100vh;
 }
