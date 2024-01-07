@@ -77,10 +77,11 @@ a {
 #desktop-nav{
   position: fixed;
   width: 100%;
-  padding: 20px 100px;
+  padding: 7px 17px 7px 17px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 100;
   transition: top 0.5s ease;
   background-color: white;
 }
@@ -211,7 +212,7 @@ section {
   height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
-  min-height: fit-content;
+  min-height: 100vh;
 }
 
 .section-container {
@@ -223,10 +224,7 @@ section {
 #profile {
   display: flex;
   justify-content: center;
-  align-items: center;
-  min-height: 100vh;
   gap: 5rem;
-  height: 100vh;
 }
 
 .section__pic-container {

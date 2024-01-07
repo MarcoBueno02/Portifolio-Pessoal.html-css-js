@@ -100,3 +100,61 @@
     text-align: justify;
   }
 }
+
+@media screen and (max-width: 320px) {
+  #contato,
+  footer {
+    height: 20vh;
+  }
+  #profile {
+    height: 41vh;
+    margin-bottom: 0;
+  }
+  article {
+    font-size: 0.5rem;
+  }
+  footer {
+    height: fit-content;
+    margin-bottom: 1rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 0.5rem;
+  }
+  .experience-sub-title {
+    font-size: 1rem;
+  }
+  .logo {
+    font-size: 1rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 23vw;
+    justify-content: center;
+  }
+  .section__text__p2 {
+    font-size: 0.75rem;
+  }
+  .title {
+    font-size: 1rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+  #hamburger-nav{
+    justify-content: space-between;
+  }
+}
