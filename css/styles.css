@@ -342,6 +342,10 @@ section {
   border-color: rgb(163, 163, 163);
 }
 
+#projetos p{
+  margin: 1rem;
+}
+
 /* CONTATO */
 
 #contato {
