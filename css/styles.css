@@ -10,10 +10,6 @@
   scroll-behavior: smooth;
 }
 
-.nav-list li, #profile, section,#sobre, #projetos,#contato, footer {
-  text-transform:  capitalize;
-}
-
 /* botões */
 .btn-container {
   display: flex;
